@@ -1,0 +1,5 @@
+# Copyright (c) 2021 310weber
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CALLA60
+	def_bool $(shields_list_contains,calla60)
