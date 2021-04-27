@@ -18,7 +18,6 @@ jobs:
     strategy:
       matrix:
         board:
-          - bluemacro840_v1
           - bluemicro840_v1
           - nice_nano
           - nrfmicro_13
@@ -27,7 +26,6 @@ jobs:
           - bfo9000_left
           - bfo9000_right
           - boardsource3x4
-          - calla60
           - corne_left
           - corne_right
           - cradio_left
@@ -65,7 +63,8 @@ jobs:
         cmake-args: [""]
         include:
           - board: bdn9_rev2
-          - board: dz60rgb_rev1
+          - board: bluemacro840_v1
+            shield: calla60
           - board: nrf52840_m2
             shield: m60
           - board: planck_rev6
