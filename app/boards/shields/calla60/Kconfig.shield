@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_CALLA60
-	def_bool $(shields_list_contains,calla60)
+    def_bool $(shields_list_contains,calla60)
